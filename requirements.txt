@@ -1,0 +1,119 @@
+# Core Streamlit and Web Framework
+streamlit>=1.28.0
+
+# AI/ML Core Libraries
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+
+# Advanced NLP & NER
+spacy>=3.6.0
+scispacy>=0.5.3
+datasets>=2.12.0
+
+# Knowledge Graph & Network Analysis
+networkx>=3.1
+neo4j>=5.8.0
+py2neo>=2021.2.3
+
+# Image Processing and Advanced OCR
+pytesseract>=0.3.10
+opencv-python>=4.8.0
+Pillow>=10.0.0
+layoutparser>=0.3.4
+easyocr>=1.7.0
+
+# Audio Processing
+SpeechRecognition>=3.10.0
+pydub>=0.25.1
+pyaudio>=0.2.11
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# Data Processing & Analysis
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Explainable AI
+shap>=0.42.1
+lime>=0.2.0.1
+
+# Machine Learning Enhancement
+scikit-learn>=1.3.0
+xgboost>=1.7.0
+lightgbm>=4.0.0
+
+# Text Processing & Regex
+regex>=2023.8.8
+nltk>=3.8.0
+textblob>=0.17.1
+
+# Medical & Drug Databases
+biopython>=1.81
+pubchempy>=1.0.4
+rdkit-pypi>=2022.9.5
+
+# Web Scraping & APIs (for pharmacy integration)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.10.0
+
+# Database & Storage
+sqlite3  # Built into Python
+sqlalchemy>=2.0.0
+pymongo>=4.4.0
+
+# Calendar & Scheduling
+icalendar>=5.0.7
+google-api-python-client>=2.95.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.0.0
+
+# File Processing
+PyPDF2>=3.0.1
+python-docx>=0.8.11
+openpyxl>=3.1.0
+
+# Security & Hashing
+cryptography>=41.0.0
+bcrypt>=4.0.0
+
+# Development & Testing
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Performance & Optimization
+numba>=0.57.0
+cython>=3.0.0
+
+# Visualization Enhancement
+wordcloud>=1.9.0
+graphviz>=0.20.0
+
+# System Integration
+psutil>=5.9.0
+schedule>=1.2.0
+
+# Optional: GPU Acceleration (uncomment if you have CUDA)
+# torch-audio>=2.0.0+cu118
+# torchaudio>=2.0.0+cu118
+# bitsandbytes>=0.39.0
+
+# Optional: Advanced Medical Models (large downloads)
+# medspacy>=1.0.0
+# clinical-bert>=1.0.0
+
+# Environment & Configuration
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Logging & Monitoring
+loguru>=0.7.0
+wandb>=0.15.0
+

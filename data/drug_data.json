@@ -1,0 +1,238 @@
+{
+  "drugs": [
+    {
+      "name": "Ibuprofen",
+      "adult_dosage": "200mg - 400mg every 4-6 hours, max 1200mg/day",
+      "pediatric_dosage": "10mg/kg every 6-8 hours",
+      "contraindications": "Severe kidney or liver disease, heart failure",
+      "side_effects": ["Stomach upset", "Dizziness", "Headache", "Nausea", "Heartburn"],
+      "alternatives": ["Naproxen", "Aspirin", "Acetaminophen"],
+      "drug_class": "NSAID",
+      "indications": ["Pain relief", "Inflammation", "Fever reduction"]
+    },
+    {
+      "name": "Warfarin",
+      "adult_dosage": "Individualized daily dose (2mg - 10mg)",
+      "pediatric_dosage": "Not recommended",
+      "contraindications": "Bleeding disorders, recent surgery, uncontrolled hypertension",
+      "side_effects": ["Easy bruising", "Nosebleeds", "Abnormal bleeding", "Hair loss"],
+      "alternatives": ["Rivaroxaban", "Apixaban", "Dabigatran"],
+      "drug_class": "Anticoagulant",
+      "indications": ["Blood clot prevention", "Atrial fibrillation", "Deep vein thrombosis"]
+    },
+    {
+      "name": "Aspirin",
+      "adult_dosage": "81mg daily for heart protection, 325mg for pain/fever",
+      "pediatric_dosage": "Not recommended for children under 16 due to Reye's syndrome risk",
+      "contraindications": "Asthma, active ulcer, bleeding disorders",
+      "side_effects": ["Heartburn", "Stomach pain", "Upset stomach", "Tinnitus"],
+      "alternatives": ["Ibuprofen", "Naproxen", "Clopidogrel"],
+      "drug_class": "NSAID/Antiplatelet",
+      "indications": ["Heart attack prevention", "Pain relief", "Fever reduction", "Stroke prevention"]
+    },
+    {
+      "name": "Amoxicillin",
+      "adult_dosage": "250mg - 500mg every 8 hours",
+      "pediatric_dosage": "25-45mg/kg/day in divided doses",
+      "contraindications": "Known penicillin allergy",
+      "side_effects": ["Nausea", "Diarrhea", "Rash", "Abdominal pain", "Vomiting"],
+      "alternatives": ["Doxycycline", "Azithromycin", "Cephalexin"],
+      "drug_class": "Penicillin Antibiotic",
+      "indications": ["Bacterial infections", "Respiratory infections", "Urinary tract infections"]
+    },
+    {
+      "name": "Lisinopril",
+      "adult_dosage": "10mg - 40mg daily",
+      "pediatric_dosage": "0.07 mg/kg once daily",
+      "contraindications": "Pregnancy, angioedema history",
+      "side_effects": ["Dry cough", "Dizziness", "Fatigue", "Hyperkalemia"],
+      "alternatives": ["Losartan", "Valsartan", "Amlodipine"],
+      "drug_class": "ACE Inhibitor",
+      "indications": ["High blood pressure", "Heart failure", "Kidney protection in diabetes"]
+    },
+    {
+      "name": "Metformin",
+      "adult_dosage": "500mg twice daily or 850mg once daily",
+      "pediatric_dosage": "Not recommended for children under 10",
+      "contraindications": "Severe kidney disease, metabolic acidosis",
+      "side_effects": ["Diarrhea", "Nausea", "Stomach pain", "Metallic taste", "Loss of appetite"],
+      "alternatives": ["Glipizide", "Januvia", "Insulin"],
+      "drug_class": "Biguanide",
+      "indications": ["Type 2 diabetes", "Prediabetes", "PCOS"]
+    },
+    {
+      "name": "Acetaminophen",
+      "adult_dosage": "325mg - 1000mg every 4-6 hours, max 4000mg/day",
+      "pediatric_dosage": "10-15mg/kg every 4-6 hours",
+      "contraindications": "Severe liver disease, chronic alcohol use",
+      "side_effects": ["Rare at therapeutic doses", "Liver damage with overdose", "Allergic reactions"],
+      "alternatives": ["Ibuprofen", "Aspirin", "Naproxen"],
+      "drug_class": "Analgesic/Antipyretic",
+      "indications": ["Pain relief", "Fever reduction"]
+    },
+    {
+      "name": "Naproxen",
+      "adult_dosage": "220mg every 8-12 hours, max 660mg/day",
+      "pediatric_dosage": "5-7mg/kg every 8-12 hours",
+      "contraindications": "Severe kidney or liver disease, heart failure",
+      "side_effects": ["Stomach upset", "Dizziness", "Headache", "Drowsiness"],
+      "alternatives": ["Ibuprofen", "Aspirin", "Acetaminophen"],
+      "drug_class": "NSAID",
+      "indications": ["Pain relief", "Inflammation", "Fever reduction"]
+    },
+    {
+      "name": "Atorvastatin",
+      "adult_dosage": "10mg - 80mg daily",
+      "pediatric_dosage": "Not recommended for children under 10",
+      "contraindications": "Active liver disease, pregnancy, breastfeeding",
+      "side_effects": ["Muscle pain", "Headache", "Nausea", "Liver enzyme elevation"],
+      "alternatives": ["Simvastatin", "Rosuvastatin", "Pravastatin"],
+      "drug_class": "Statin",
+      "indications": ["High cholesterol", "Heart disease prevention"]
+    },
+    {
+      "name": "Omeprazole",
+      "adult_dosage": "20mg - 40mg daily",
+      "pediatric_dosage": "1mg/kg daily for children over 1 year",
+      "contraindications": "Known hypersensitivity to proton pump inhibitors",
+      "side_effects": ["Headache", "Nausea", "Diarrhea", "Abdominal pain"],
+      "alternatives": ["Lansoprazole", "Esomeprazole", "Pantoprazole"],
+      "drug_class": "Proton Pump Inhibitor",
+      "indications": ["Acid reflux", "Stomach ulcers", "GERD"]
+    },
+     {
+      "name": "Amlodipine",
+      "adult_dosage": "2.5–5 mg once daily; max 10 mg/day",
+      "pediatric_dosage": "2.5–5 mg daily (children 6–17 years)",
+      "contraindications": "Hypersensitivity to amlodipine; caution in heart failure",
+      "side_effects": ["Edema", "Dizziness", "Headache", "Flushing", "Palpitations"],
+      "alternatives": ["Lisinopril", "Losartan", "Hydrochlorothiazide"],
+      "drug_class": "Calcium Channel Blocker",
+      "indications": ["Hypertension", "Angina", "Coronary artery disease"]
+    },
+    {
+      "name": "Furosemide",
+      "adult_dosage": "20–80 mg once or twice daily",
+      "pediatric_dosage": "Weight-based, varies per indication",
+      "contraindications": "Anuria, severe electrolyte depletion",
+      "side_effects": ["Electrolyte imbalance", "Dehydration", "Hypotension", "Ototoxicity"],
+      "alternatives": ["Hydrochlorothiazide", "Spironolactone"],
+      "drug_class": "Loop Diuretic",
+      "indications": ["Edema", "Hypertension", "Hypercalcemia"]
+    },
+    {
+      "name": "Azathioprine",
+      "adult_dosage": "1–3 mg/kg/day",
+      "pediatric_dosage": "Weight-based; physician directed",
+      "contraindications": "TPMT deficiency, active infections, pregnancy",
+      "side_effects": ["Bone marrow suppression", "Nausea", "Infection risk"],
+      "alternatives": ["Methotrexate", "Mycophenolate mofetil"],
+      "drug_class": "Immunosuppressant (Antimetabolite)",
+      "indications": ["Autoimmune disease", "Transplant rejection prevention"]
+    },
+    {
+      "name": "Hydroxyzine",
+      "adult_dosage": "50–100 mg up to 4x daily (for anxiety)",
+      "pediatric_dosage": "Under 6: max 50 mg/day; 6+: up to 100 mg/day",
+      "contraindications": "Early pregnancy, concurrent CNS depressants",
+      "side_effects": ["Drowsiness", "Dry mouth", "Sedation"],
+      "alternatives": ["Diphenhydramine", "Buspirone"],
+      "drug_class": "Antihistamine (H1 blocker)",
+      "indications": ["Anxiety", "Allergic reactions", "Sedation"]
+    },
+    {
+      "name": "Alprazolam",
+      "adult_dosage": "0.25–0.5 mg TID; max 4 mg/day",
+      "pediatric_dosage": "Not recommended",
+      "contraindications": "Substance abuse history, respiratory insufficiency",
+      "side_effects": ["Drowsiness", "Dependence", "Cognitive impairment"],
+      "alternatives": ["Hydroxyzine", "Buspirone", "SSRIs"],
+      "drug_class": "Benzodiazepine",
+      "indications": ["Anxiety", "Panic disorder"]
+    }
+  ],
+  "interactions": [
+    {
+      "drug1": "Ibuprofen",
+      "drug2": "Warfarin",
+      "interaction": "Increased risk of bleeding. Use of alternative pain medication is advised.",
+      "severity": "High"
+    },
+    {
+      "drug1": "Aspirin",
+      "drug2": "Warfarin",
+      "interaction": "Significant increased risk of severe bleeding.",
+      "severity": "High"
+    },
+    {
+      "drug1": "Ibuprofen",
+      "drug2": "Lisinopril",
+      "interaction": "May decrease the blood pressure-lowering effect of Lisinopril.",
+      "severity": "Moderate"
+    },
+    {
+      "drug1": "Naproxen",
+      "drug2": "Warfarin",
+      "interaction": "Increased risk of bleeding complications.",
+      "severity": "High"
+    },
+    {
+      "drug1": "Aspirin",
+      "drug2": "Ibuprofen",
+      "interaction": "May reduce the heart-protective effects of aspirin.",
+      "severity": "Moderate"
+    },
+    {
+      "drug1": "Metformin",
+      "drug2": "Atorvastatin",
+      "interaction": "May increase risk of muscle-related side effects.",
+      "severity": "Low"
+    },
+    {
+      "drug1": "Omeprazole",
+      "drug2": "Warfarin",
+      "interaction": "May increase warfarin levels and bleeding risk.",
+      "severity": "Moderate"
+    },
+    {
+      "drug1": "Acetaminophen",
+      "drug2": "Warfarin",
+      "interaction": "High doses may increase bleeding risk.",
+      "severity": "Low"
+    },
+    {
+      "drug1": "Atorvastatin",
+      "drug2": "Amoxicillin",
+      "interaction": "Antibiotics may alter gut bacteria affecting statin metabolism.",
+      "severity": "Low"
+    },
+    {
+      "drug1": "Lisinopril",
+      "drug2": "Naproxen",
+      "interaction": "May reduce effectiveness of blood pressure medication.",
+      "severity": "Moderate"
+    }
+  ],
+  "drug_classes": {
+    "NSAID": {
+      "description": "Non-steroidal anti-inflammatory drugs",
+      "common_side_effects": ["GI upset", "Kidney problems", "Cardiovascular risks"],
+      "monitoring": ["Kidney function", "Blood pressure", "GI symptoms"]
+    },
+    "Anticoagulant": {
+      "description": "Blood thinning medications",
+      "common_side_effects": ["Bleeding", "Bruising"],
+      "monitoring": ["INR levels", "Signs of bleeding", "Complete blood count"]
+    },
+    "ACE Inhibitor": {
+      "description": "Angiotensin-converting enzyme inhibitors",
+      "common_side_effects": ["Dry cough", "Hyperkalemia", "Hypotension"],
+      "monitoring": ["Blood pressure", "Kidney function", "Electrolytes"]
+    },
+    "Antibiotic": {
+      "description": "Medications that fight bacterial infections",
+      "common_side_effects": ["GI upset", "Allergic reactions", "Antibiotic resistance"],
+      "monitoring": ["Signs of allergic reaction", "Treatment response"]
+    }
+  }
+}
